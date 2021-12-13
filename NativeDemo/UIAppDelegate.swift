@@ -24,12 +24,14 @@ public class NSApplication: UIApplication {}
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
+    var nodeList = NodeList()
   func application(
     _: UIApplication,
     didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil
   ) -> Bool {
     window = UIWindow()
-    window?.rootViewController = UIHostingController(rootView: TokamakDemoView())
+//    window?.rootViewController = UIHostingController(rootView: TokamakDemoView())
+      window?.rootViewController = UIHostingController(rootView: NodeListView().environmentObject(nodeList))
     window?.makeKeyAndVisible()
     return true
   }

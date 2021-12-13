@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D69E4712767399200BAE371 /* NodeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4672767399200BAE371 /* NodeListView.swift */; };
+		3D69E4722767399200BAE371 /* NodeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4672767399200BAE371 /* NodeListView.swift */; };
+		3D69E4732767399200BAE371 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4682767399200BAE371 /* PinView.swift */; };
+		3D69E4742767399200BAE371 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4682767399200BAE371 /* PinView.swift */; };
+		3D69E4752767399200BAE371 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4692767399200BAE371 /* Pin.swift */; };
+		3D69E4762767399200BAE371 /* Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4692767399200BAE371 /* Pin.swift */; };
+		3D69E4772767399200BAE371 /* WireListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46A2767399200BAE371 /* WireListView.swift */; };
+		3D69E4782767399200BAE371 /* WireListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46A2767399200BAE371 /* WireListView.swift */; };
+		3D69E4792767399200BAE371 /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46B2767399200BAE371 /* Wire.swift */; };
+		3D69E47A2767399200BAE371 /* Wire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46B2767399200BAE371 /* Wire.swift */; };
+		3D69E47B2767399200BAE371 /* GalacticFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46C2767399200BAE371 /* GalacticFlowApp.swift */; };
+		3D69E47C2767399200BAE371 /* GalacticFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46C2767399200BAE371 /* GalacticFlowApp.swift */; };
+		3D69E47D2767399200BAE371 /* WireList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46D2767399200BAE371 /* WireList.swift */; };
+		3D69E47E2767399200BAE371 /* WireList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46D2767399200BAE371 /* WireList.swift */; };
+		3D69E47F2767399200BAE371 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46E2767399200BAE371 /* Node.swift */; };
+		3D69E4802767399200BAE371 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46E2767399200BAE371 /* Node.swift */; };
+		3D69E4812767399200BAE371 /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46F2767399200BAE371 /* NodeView.swift */; };
+		3D69E4822767399200BAE371 /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E46F2767399200BAE371 /* NodeView.swift */; };
+		3D69E4832767399200BAE371 /* NodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4702767399200BAE371 /* NodeList.swift */; };
+		3D69E4842767399200BAE371 /* NodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D69E4702767399200BAE371 /* NodeList.swift */; };
 		85ED186A24AD38F20085DFA0 /* UIAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ED186924AD38F20085DFA0 /* UIAppDelegate.swift */; };
 		85ED188A24AD3CD60085DFA0 /* macOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ED188724AD3CC30085DFA0 /* macOS.storyboard */; };
 		85ED188C24AD3CF10085DFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85ED188B24AD3CF10085DFA0 /* LaunchScreen.storyboard */; };
@@ -108,6 +128,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D69E4672767399200BAE371 /* NodeListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NodeListView.swift; path = ../../Sources/TokamakApp/NodeListView.swift; sourceTree = "<group>"; };
+		3D69E4682767399200BAE371 /* PinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinView.swift; path = ../../Sources/TokamakApp/PinView.swift; sourceTree = "<group>"; };
+		3D69E4692767399200BAE371 /* Pin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pin.swift; path = ../../Sources/TokamakApp/Pin.swift; sourceTree = "<group>"; };
+		3D69E46A2767399200BAE371 /* WireListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WireListView.swift; path = ../../Sources/TokamakApp/WireListView.swift; sourceTree = "<group>"; };
+		3D69E46B2767399200BAE371 /* Wire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wire.swift; path = ../../Sources/TokamakApp/Wire.swift; sourceTree = "<group>"; };
+		3D69E46C2767399200BAE371 /* GalacticFlowApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalacticFlowApp.swift; path = ../../Sources/TokamakApp/GalacticFlowApp.swift; sourceTree = "<group>"; };
+		3D69E46D2767399200BAE371 /* WireList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WireList.swift; path = ../../Sources/TokamakApp/WireList.swift; sourceTree = "<group>"; };
+		3D69E46E2767399200BAE371 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = ../../Sources/TokamakApp/Node.swift; sourceTree = "<group>"; };
+		3D69E46F2767399200BAE371 /* NodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NodeView.swift; path = ../../Sources/TokamakApp/NodeView.swift; sourceTree = "<group>"; };
+		3D69E4702767399200BAE371 /* NodeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NodeList.swift; path = ../../Sources/TokamakApp/NodeList.swift; sourceTree = "<group>"; };
 		8587DF5524D4B9A40033EF43 /* TokamakDemo Native.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TokamakDemo Native.entitlements"; sourceTree = "<group>"; };
 		85ED184A24AD379A0085DFA0 /* TokamakDemo Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TokamakDemo Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85ED185224AD379A0085DFA0 /* TokamakDemo Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TokamakDemo Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,9 +209,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D69E4662767398100BAE371 /* GalacticFlow */ = {
+			isa = PBXGroup;
+			children = (
+				3D69E46C2767399200BAE371 /* GalacticFlowApp.swift */,
+				3D69E46E2767399200BAE371 /* Node.swift */,
+				3D69E4702767399200BAE371 /* NodeList.swift */,
+				3D69E4672767399200BAE371 /* NodeListView.swift */,
+				3D69E46F2767399200BAE371 /* NodeView.swift */,
+				3D69E4692767399200BAE371 /* Pin.swift */,
+				3D69E4682767399200BAE371 /* PinView.swift */,
+				3D69E46B2767399200BAE371 /* Wire.swift */,
+				3D69E46D2767399200BAE371 /* WireList.swift */,
+				3D69E46A2767399200BAE371 /* WireListView.swift */,
+			);
+			path = GalacticFlow;
+			sourceTree = "<group>";
+		};
 		85ED183D24AD37970085DFA0 = {
 			isa = PBXGroup;
 			children = (
+				3D69E4662767398100BAE371 /* GalacticFlow */,
 				8587DF5524D4B9A40033EF43 /* TokamakDemo Native.entitlements */,
 				D1E5FDAB24C1D57000E7485E /* TokamakShim */,
 				85ED188B24AD3CF10085DFA0 /* LaunchScreen.storyboard */,
@@ -388,7 +436,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					85ED184924AD379A0085DFA0 = {
 						CreatedOnToolsVersion = 12.0;
@@ -447,6 +495,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D69E4752767399200BAE371 /* Pin.swift in Sources */,
 				D107875C274BD1E5003E787B /* ToggleDemo.swift in Sources */,
 				D1078784274BD1E5003E787B /* TextDemo.swift in Sources */,
 				D107878A274BD1E5003E787B /* Counter.swift in Sources */,
@@ -457,6 +506,8 @@
 				D1078770274BD1E5003E787B /* CanvasDemo.swift in Sources */,
 				85ED18A924AD425E0085DFA0 /* TokamakDemo.swift in Sources */,
 				D1078758274BD1E5003E787B /* SliderDemo.swift in Sources */,
+				3D69E4832767399200BAE371 /* NodeList.swift in Sources */,
+				3D69E47F2767399200BAE371 /* Node.swift in Sources */,
 				D107877A274BD1E5003E787B /* TransitionDemo.swift in Sources */,
 				D1078768274BD1E5003E787B /* ShadowDemo.swift in Sources */,
 				D107877E274BD1E5003E787B /* AppStorageDemo.swift in Sources */,
@@ -471,14 +522,21 @@
 				D1078754274BD1E5003E787B /* StackDemo.swift in Sources */,
 				D1078778274BD1E5003E787B /* PreferenceKeyDemo.swift in Sources */,
 				D107874E274BD1E5003E787B /* SpacerDemo.swift in Sources */,
+				3D69E4792767399200BAE371 /* Wire.swift in Sources */,
 				D1078766274BD1E5003E787B /* TaskDemo.swift in Sources */,
+				3D69E4712767399200BAE371 /* NodeListView.swift in Sources */,
 				D1078760274BD1E5003E787B /* ForEachDemo.swift in Sources */,
 				D1078750274BD1E5003E787B /* GeometryReaderDemo.swift in Sources */,
 				D107875A274BD1E5003E787B /* PickerDemo.swift in Sources */,
 				D1078788274BD1E5003E787B /* TextFieldDemo.swift in Sources */,
+				3D69E4772767399200BAE371 /* WireListView.swift in Sources */,
+				3D69E47D2767399200BAE371 /* WireList.swift in Sources */,
 				D107878C274BD1E5003E787B /* ButtonStyleDemo.swift in Sources */,
+				3D69E47B2767399200BAE371 /* GalacticFlowApp.swift in Sources */,
 				D1078762274BD1E5003E787B /* ListDemo.swift in Sources */,
+				3D69E4732767399200BAE371 /* PinView.swift in Sources */,
 				D107877C274BD1E5003E787B /* ProgressViewDemo.swift in Sources */,
+				3D69E4812767399200BAE371 /* NodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +544,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D69E4762767399200BAE371 /* Pin.swift in Sources */,
 				D107875D274BD1E5003E787B /* ToggleDemo.swift in Sources */,
 				D1078785274BD1E5003E787B /* TextDemo.swift in Sources */,
 				D107878B274BD1E5003E787B /* Counter.swift in Sources */,
@@ -496,6 +555,8 @@
 				D1078771274BD1E5003E787B /* CanvasDemo.swift in Sources */,
 				85ED18B624AD42D70085DFA0 /* NSAppDelegate.swift in Sources */,
 				D1078759274BD1E5003E787B /* SliderDemo.swift in Sources */,
+				3D69E4842767399200BAE371 /* NodeList.swift in Sources */,
+				3D69E4802767399200BAE371 /* Node.swift in Sources */,
 				D107877B274BD1E5003E787B /* TransitionDemo.swift in Sources */,
 				D1078769274BD1E5003E787B /* ShadowDemo.swift in Sources */,
 				D107877F274BD1E5003E787B /* AppStorageDemo.swift in Sources */,
@@ -510,14 +571,21 @@
 				D1078755274BD1E5003E787B /* StackDemo.swift in Sources */,
 				D1078779274BD1E5003E787B /* PreferenceKeyDemo.swift in Sources */,
 				D107874F274BD1E5003E787B /* SpacerDemo.swift in Sources */,
+				3D69E47A2767399200BAE371 /* Wire.swift in Sources */,
 				D1078767274BD1E5003E787B /* TaskDemo.swift in Sources */,
+				3D69E4722767399200BAE371 /* NodeListView.swift in Sources */,
 				D1078761274BD1E5003E787B /* ForEachDemo.swift in Sources */,
 				D1078751274BD1E5003E787B /* GeometryReaderDemo.swift in Sources */,
 				D107875B274BD1E5003E787B /* PickerDemo.swift in Sources */,
 				D1078789274BD1E5003E787B /* TextFieldDemo.swift in Sources */,
+				3D69E4782767399200BAE371 /* WireListView.swift in Sources */,
+				3D69E47E2767399200BAE371 /* WireList.swift in Sources */,
 				D107878D274BD1E5003E787B /* ButtonStyleDemo.swift in Sources */,
+				3D69E47C2767399200BAE371 /* GalacticFlowApp.swift in Sources */,
 				D1078763274BD1E5003E787B /* ListDemo.swift in Sources */,
+				3D69E4742767399200BAE371 /* PinView.swift in Sources */,
 				D107877D274BD1E5003E787B /* ProgressViewDemo.swift in Sources */,
+				3D69E4822767399200BAE371 /* NodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,8 +734,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "TokamakDemo Native.entitlements";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F6XEAMHP2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "iOS Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -679,6 +749,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.tokamak.Tokamak-Native";
 				PRODUCT_NAME = "TokamakDemo Native";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -693,8 +764,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "TokamakDemo Native.entitlements";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3XP53YE38;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "iOS Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -706,6 +779,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.tokamak.Tokamak-Native";
 				PRODUCT_NAME = "TokamakDemo Native";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -720,6 +794,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -747,6 +822,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";

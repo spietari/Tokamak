@@ -39,6 +39,10 @@ let package = Package(
     // Products define the executables and libraries produced by a package,
     // and make them visible to other packages.
     .executable(
+      name: "TokamakApp",
+      targets: ["TokamakApp"]
+    ),
+    .executable(
       name: "TokamakDemo",
       targets: ["TokamakDemo"]
     ),
@@ -178,6 +182,24 @@ let package = Package(
     .target(
       name: "TokamakDOM",
       dependencies: tokamakDOMDependencies
+    ),
+    .executableTarget(
+      name: "TokamakApp",
+      dependencies: [
+        "TokamakShim",
+        .product(
+          name: "JavaScriptKit",
+          package: "JavaScriptKit",
+          condition: .when(platforms: [.wasi])
+        ),
+      ],
+      resources: [.copy("logo-header.png")],
+      linkerSettings: [
+        .unsafeFlags(
+          ["-Xlinker", "--stack-first", "-Xlinker", "-z", "-Xlinker", "stack-size=16777216"],
+          .when(platforms: [.wasi])
+        ),
+      ]
     ),
     .executableTarget(
       name: "TokamakDemo",
